@@ -1,0 +1,26 @@
+@-webkit-keyframes animateCloud {
+0% {background-position: -10000% 0; }
+100% {background-position: 1000% 0;}
+}
+
+@-moz-keyframes animateCloud {
+0% {background-position: -1000px 0;}
+100% {background-position: 1000% 0;}
+}
+@keyframes animateCloud  {
+0% {background-position: -1000px 0;}
+100% {background-position: 1000% 0;}
+}
+.root{
+-fx-background-image: url("../cssFile/r.gif");
+-fx-background-repeat: stretch;
+-fx-background-size:cover;
+-fx-background-position: center center;
+-fx-effect: drop shadow(three-pass-box, black, 30, 0.5, 0, 0);
+-fx-background-repeat: repeat-x;
+-fx-webkit-animation: animateCloud 10s, linear infinite;
+-fx-moz-animation: animateCloud 10s, linear infinite;
+
+}
+
+

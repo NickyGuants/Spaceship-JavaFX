@@ -1,0 +1,7 @@
+.root{
+-fx-background-image: url("../cssFile/r.gif");
+-fx-background-repeat: stretch;
+-fx-background-size:cover;
+-fx-background-position: center center;
+-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, o, 0);
+}
